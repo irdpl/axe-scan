@@ -6,38 +6,6 @@ Narzędzie CLI do testowania dostępności stron internetowych na wielu stronach
 
 ---
 
-## Table of Contents
-
-- [The basic idea](#the-basic-idea)
-- [Testing web accessibility: the basic flow](#testing-web-accessibility-the-basic-flow)
-  - [1. Install axe-scan](#1-install-axe-scan)
-  - [2. Setup axe-scan and set locale](#2-setup-axe-scan-and-set-locale)
-  - [3. Create `urls.txt`](#3-create-urlstxt)
-  - [4. Initial accessibility test](#4-initial-accessibility-test)
-  - [5. Review the results, resolve issues, and create an allowlist](#5-review-the-results-resolve-issues-and-create-an-allowlist)
-  - [6. Accessibility testing: second run](#6-accessibility-testing-second-run)
-  - [7. Create a summary report](#7-create-a-summary-report)
-  - [8. Share the files with your team](#8-share-the-files-with-your-team)
-  - [9. Use with manual checks](#9-use-with-manual-checks)
-- [Installation](#installation)
-  - [Prerequisite: Node.js](#prerequisite-nodejs)
-  - [Install axe-scan](#install-axe-scan)
-  - [Update Package](#update-package)
-- [Usage](#usage)
-  - [Initiate](#initiate)
-  - [Configure](#configure)
-  - [Run the scan](#run-the-scan)
-  - [Create a summarized report](#create-a-summarized-report)
-  - [Define allowlist](#define-allowlist)
-- [Configuring axe-scan](#configuring-axe-scan)
-  - [`axeCoreTags`](#axecoretags)
-  - [`resultTypes`](#resulttypes)
-  - [`filePath`](#filepath)
-  - [`locale`](#locale)
-- [Testing on websites with basic authentication](#testing-on-websites-with-basic-authentication)
-- [Acknowledgments](#acknowledgments)
-
----
 
 ## Podstawowa idea
 
@@ -68,7 +36,7 @@ Ta sekcja przedstawia podstawowy tok testowania dostępności stron internetowyc
 
 ### 1. Zainstaluj axe-scan
 
-Przeczytaj część [Instalacja](#installation).
+Przeczytaj część [Instalacja](#instalacja).
 
 ### 2. Zainicjuj axe-scan i ustaw wersję językową (lokalizację) 
 
@@ -88,7 +56,7 @@ Powyższy przykład ustawia locale na `ja` lub japońskie. Zobacz część [`lok
 
 ### 3. Stwórz plik `urls.txt`
 
-W bieżącym katalogu roboczym utwórz listę adresów URL, na których ma być przeprowadzony test dostępności. Adresy URL powinny być oddzielone końcami wierszy (za;pisane w odrębnych liniach). Nazwij plik `urls.txt`. Więcej szczegółów znajdziesz w sekcji [Uruchom skanowanie](#run-the-scan).
+W bieżącym katalogu roboczym utwórz listę adresów URL, na których ma być przeprowadzony test dostępności. Adresy URL powinny być oddzielone końcami wierszy (za;pisane w odrębnych liniach). Nazwij plik `urls.txt`. Więcej szczegółów znajdziesz w sekcji [Uruchom skanowanie](#uruchom-skanowanie).
 
 ### 4. Wstępne badanie dostępności
 
